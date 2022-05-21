@@ -16,7 +16,7 @@ function displayNumbers() {
   let outputHeader = "";
 
   // Ensures that user inputted minimum and maximum
-  if ((minimum >= 0) || (minimum < 0) && (maximum >= 0) || (maximum < 0)) {
+  if (((minimum >= 0) || (minimum < 0)) && ((maximum >= 0) || (maximum < 0))) {
     // IF minimum is less than the max
     if (minimum <= maximum) {
       while ((counter >= minimum) && (counter <= maximum)) {
